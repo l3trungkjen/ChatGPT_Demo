@@ -4,7 +4,7 @@ require("dotenv").config();
 
 let APIcall = async () => {
   const openai = new OpenAI({
-    apiKey: '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',
+    apiKey: 'API_SECRET_KEY',
     maxRetries: 0,
   });
 
