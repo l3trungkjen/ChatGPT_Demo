@@ -13,7 +13,7 @@ app.get("/",function(req,res){
 app.post("/",async (req, res) => {
 	var question = req.body.question;
   const openai = new OpenAI({
-    apiKey: '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',
+    apiKey: 'API_KEY',
     maxRetries: 0,
   });
   const GPTOutput = await openai.chat.completions.create({
